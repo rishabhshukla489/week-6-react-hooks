@@ -2,15 +2,22 @@ import { useState } from 'react'
 import './App.css'
 import React from 'react'
 import { Header } from './Components/Header'
+import { Headerwithrerender } from './Components/Headerwithrerender'
 
 function App() {
-  // const [title, setTitle] = useState("")
+ 
+
+  
 
   return (
-    <React.Fragment>
-      <Header title={"hi"}/>
+    <div>
+      
+      <Headerwithrerender/>
       <Header title={"rishabh"}></Header>
-    </React.Fragment>
+      <Header title={"rishabh"}></Header>
+      <Header title={"rishabh"}></Header>
+      <Header title={"rishabh"}></Header>
+    </div>
     
   )
 }
