@@ -10,6 +10,7 @@ function App() {
     <>
       <CardWrapper innerComponent={<TextComponent/>}></CardWrapper>
       <CardWrapper1><div>hi there</div></CardWrapper1>
+      <CardWrapper1><TextComponent/></CardWrapper1>
     </>
   )
 }
@@ -28,7 +29,7 @@ function CardWrapper1({children}){
 
 function TextComponent(){
   return <div>
-    hi there
+    hi thereeeedede
   </div>
 }
 
