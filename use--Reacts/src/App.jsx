@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-     <Todos todos={todos}></Todos>
+     <Todos todos={todos}></Todos> 
     </div>
   )
 }
