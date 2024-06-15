@@ -7,6 +7,7 @@ function App() {
   const onClick=useCallback( function onClick() {
     console.log("child clicked")
   },[])
+  console.log(onClick)
 
   return <div>
     <Child onClick={onClick} />
